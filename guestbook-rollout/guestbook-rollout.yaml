@@ -29,7 +29,7 @@ spec:
   strategy:
     blueGreen:
       activeService: guestbook-ui
-      previewService: guestbook-ui-canary
+      previewService: guestbook-ui-blue-green
       autoPromotionEnabled: false
       scaleDownDelaySeconds: 300
 ---
